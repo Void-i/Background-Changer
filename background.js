@@ -12,4 +12,6 @@ initialize = function(){
 	});
 }
 
-initialize();
+setTimeout(function(){
+    initialize();	
+}, 2000)
